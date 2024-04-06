@@ -3,7 +3,7 @@ import axios from "axios";
 import authService from "../services/auth.service";
 
 const api = axios.create({
-  baseURL: import.meta.env.REACT_APP_API_URI,
+  baseURL: import.meta.env.VITE_REACT_APP_API_URI,
 });
 
 const AuthContext = React.createContext();
