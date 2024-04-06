@@ -1,0 +1,222 @@
+
+
+html{
+  margin: 0;
+  padding: 0;
+ height: max-content;
+ background-color: #f0f0f0;
+}
+.barlow-regular {
+  font-family: "Barlow", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.homepage-container{
+  padding-bottom: 70px;
+  height: 100%;
+  margin: 0;
+  font-size: 50px;
+  
+  background-position: center;
+  
+  color: black /* Text color on top of the background image */
+}
+
+.navtext{
+  color: #f1d70e;
+  font-size: 40px;
+}
+.highlight {
+  text-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
+  color: #f1d70e;
+}
+.App nav {
+  
+  padding-bottom: 40px;
+  
+  padding-top: 50px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 999; /* Ensure it stays on top */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.App nav button {
+  font-size: larger;
+  color: black;
+  text-decoration: none;
+  margin-left: 20px; /* Adjust spacing between links */
+  margin-right: 20px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  transition: color 0.3s ease, padding 0.3s ease, border 0.3s ease; /* Add transition for color, padding, and border */
+}
+.App nav button:hover {
+  color: #f1d70e; /* Change text color on hover */
+  border: 2px solid #f1d70e; /* Add border on hover */
+  padding: 8px 12px; /* Add padding around the text on hover */
+  border-radius: 10px; /* Round the borders */
+}
+.homepage-container{
+  height: 100%;
+  padding-top: 200px;
+}
+.LoginPage{
+  
+  
+  padding-top: 200px; 
+  font-size: large;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  color: rgb(46, 45, 45);
+}
+
+
+.login-form {
+  
+  background-color: #757472; /* Transparent background */
+  border-radius: 10px; /* Rounded corners */
+  padding: 20px; /* Add padding */
+  box-shadow: 0 4px 6px rgba(125, 125, 125, 0.1); /* Add shadow for depth */
+  margin-bottom: 20px; /* Add space between form and "Don't have an account" text */
+  width: 300px; /* Set the width of the form */
+}
+
+.form-group {
+  margin-bottom: 20px; /* Add space between form groups */
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px; /* Add space between label and input */
+}
+
+.form-group input {
+  width: calc(100% - 22px); /* Adjust the width of the input to prevent it from exceeding the form's width */
+  padding: 10px;
+  border: 1px solid rgb(35, 34, 34);; /* White borders */
+  border-radius: 5px; /* Rounded corners */
+  background-color: transparent; /* Transparent background */
+  color: rgb(76, 72, 72);;
+  outline: none; /* Remove default outline */
+}
+
+.form-group input::placeholder {
+  color: rgb(76, 72, 72);;
+}
+
+button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid rgb(76, 72, 72);; /* White borders */
+  border-radius: 5px; /* Rounded corners */
+  background-color: transparent; /* Transparent background */
+  color: rgb(76, 72, 72);;
+  cursor: pointer;
+  outline: none; /* Remove default outline */
+}
+
+button[type="submit"]:hover {
+  background-color: rgb(76, 72, 72);;
+  color:white;
+}
+
+.error-message {
+  color: red;
+}
+.SignupPage{
+  
+  padding-top: 200px; 
+  font-size: large;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  color: rgb(242, 236, 236);
+}
+.PostListPage{
+  
+  margin-top: 10px;
+  text-align: center;
+  margin: 0 auto;
+  max-width: 600px; 
+}
+.PostCard{
+  padding-top: 30px;
+}
+.PostCard p { 
+  
+  font-size: 20px;
+  text-align: center;
+  margin-left: 50px;
+  padding: 60px;
+}
+.PostCard a {
+  color: black;
+  text-decoration: none;
+  font-size: 30px;
+}
+.AddPost{
+  margin-top: 200px;
+}
+.PostDetails{
+  margin-top: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+ /* This will make the container take the full height of the viewport */
+}
+  
+
+.PostDetails button {
+/* padding: 20px; */
+font-size: larger;
+color: black;
+text-decoration: none;
+margin-left: 20px; /* Adjust spacing between links */
+margin-right: 20px;
+margin-bottom: 20px;
+border: none;
+background: none;
+cursor: pointer;
+border: 2px solid #f1d70e; 
+ 
+border-radius: 10px; 
+transition: color 0.3s ease, padding 0.3s ease, border 0.3s ease; 
+}
+.PostDetails  button:hover {
+  color: #f1d70e; 
+  border: 2px solid #f1d70e; 
+  padding: 8px 12px; 
+  border-radius: 10px; 
+  
+}
+
+.PostDetails P {
+  padding-left: 200px;
+  padding-right: 200px;
+  
+}
+.PostListPage .AddPost{
+  padding-left: 150px;
+}
+.EditPostPage {
+  padding-top: 200px;
+  padding-left: 600px;
+}
+.AddComment{
+  padding-top: 200px;
+  font-size: larger;
+}
