@@ -4,7 +4,8 @@ import { Link, useNavigate } from "react-router-dom";
 import axios from "axios";
 // import { AuthContext } from "../context/auth.context";
 // import authService from "../services/auth.service";
- const API_URL = import.meta.env.VITE_SERVER_URL + ':5005';
+// const API_URL = import.meta.env.VITE_SERVER_URL + ':5005';
+ const API_URL = import.meta.env.VITE_SERVER_URL;
  console.log(API_URL);
 function SignupPage() {
   const [email, setEmail] = useState("");
