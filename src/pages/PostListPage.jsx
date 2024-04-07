@@ -41,7 +41,8 @@ import axios from "axios";
 import PostCard from "../components/PostCard";
 import AddPost from "../components/AddPost";
 import postsService from "../services/posts.service";
-const API_URL = "http://localhost:5005";
+//const API_URL = "http://localhost:5005";
+const API_URL = import.meta.env.VITE_SERVER_URL;
 
 function PostListPage() {
   const [posts, setPosts] = useState([]);

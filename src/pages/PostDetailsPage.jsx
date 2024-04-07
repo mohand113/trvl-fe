@@ -7,7 +7,8 @@ import axios from "axios";
 // import AddTask from "../components/AddTask";
 // import TaskCard from "../components/TaskCard";
 
-const API_URL = "http://localhost:5005";
+//const API_URL = "http://localhost:5005";
+const API_URL = import.meta.env.VITE_SERVER_URL;
 
 function PostDetailsPage (props) {
   const [post, setPost] = useState(null);

@@ -7,7 +7,8 @@ import AddComment from "../components/AddComment";
 import CommentCard from "../components/CommentCard";
 import commentsService from "../services/comments.service";
 import { useParams } from "react-router-dom";
-const API_URL = "http://localhost:5005";
+//const API_URL = "http://localhost:5005";
+const API_URL = import.meta.env.VITE_SERVER_URL;
 
 function CommentListPage() {
   const [comments, setComments] = useState([]);
